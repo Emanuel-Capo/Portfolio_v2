@@ -1,0 +1,49 @@
+<div
+  class="bg-slate-900 min-h-screen font-sans text-slate-200"
+  (mousemove)="mouseMoved($event)"
+>
+  <div
+    #mouse
+    class="pointer-events-none fixed inset-0 z-30 transition duration-300 bg-[radial-gradient(600px_at_var(--x,200px)_var(--y,200px),_rgba(29,78,216,0.15),_transparent_80%)]"
+  ></div>
+  <div
+    class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0"
+  >
+    <div class="lg:flex lg:justify-between lg:gap-4">
+      <div
+        class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24"
+      >
+        <app-header></app-header>
+      </div>
+      <div class="pt-24 lg:w-1/2 lg:py-24">
+        <app-about></app-about>
+        <app-languages></app-languages>
+        <app-studies></app-studies>
+        <app-projects></app-projects>
+        <div class="mt-12">
+          <a
+            class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-lg"
+            href="assets/CV_EmanuelCapo_es.pdf"
+            target="_blank"
+            rel="noreferrer noopener"
+            ><span
+              >Mi Curriculum
+              <span class="inline-block"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                    clip-rule="evenodd"
+                  ></path></svg></span></span
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
