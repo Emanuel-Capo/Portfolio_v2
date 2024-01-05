@@ -97,7 +97,7 @@ export class ProjectsComponent {
       img: 'assets/pets.png',
       link:'https://petstore-eight.vercel.app/',
       description:[
-        'PetStore es una e-commerce de productos para mascotas. Cuenta con un carrito de compras, la opcion de pagar con tarjeta de credito - debito y paypal. Tambien posee un dashboard-admin en el cual podemos agregar, editar o borrar los productos en venta.',
+        'PetStore es un e-commerce de productos para mascotas. Cuenta con un carrito de compras y la opción de pagar con tarjeta de crédito, débito y paypal. También posee un dashboard para el administrador en el cual se pueden agregar, editar o borrar los productos en venta.',
         'Proyecto realizado en el entorno de simulación NoCountry.'
       ],
       techs:[
