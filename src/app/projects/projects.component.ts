@@ -35,6 +35,28 @@ export class ProjectsComponent {
       ]
     },
     {
+      name: 'ConTAnoS',
+      img: 'assets/contanos.png',
+      link:'https://contanos.vercel.app/',
+      description:[
+        'ConTAnoS es una página que permite conectar de forma solidaria personas que necesitan ayuda psicológica con profesionales del sector, mediante salas de chat y videollamadas grupales, cada una con diferentes temáticas.',
+        'Proyecto realizado en el entorno de simulación NoCountry.'
+      ],
+      techs:[
+        '.Net',
+        'C#',
+        'SQL Server',
+        'React',
+        'Next',
+        'Tailwind',
+        'SignalR',
+        'LiveKit',
+        'Cloudinary',
+        'Metodologias Ágiles',
+        'Trello',
+      ]
+    },
+    {
       name: 'SurShop',
       img: 'assets/sur.png',
       link:'https://surshop-beta.vercel.app/',
@@ -51,7 +73,7 @@ export class ProjectsComponent {
         'Tailwind',
         'MercadoPago',
         'Cloudinary',
-        'Metodologias Agiles',
+        'Metodologias Ágiles',
         'Jira',
       ]
     },
